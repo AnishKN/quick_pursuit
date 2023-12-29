@@ -1,3 +1,16 @@
+Installation guide :
+
+step 1: clone repository
+
+step 2: open terminal and install packages
+
+-> cd backend -> npm install
+
+-> cd client -> npm install
+
+step 3: npm run dev
+
+
 ```
 
 git checkout -b [new_brach]
