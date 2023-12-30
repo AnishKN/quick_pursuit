@@ -20,8 +20,8 @@ app.post('/register', (req,res)=>{
 })
 
 app.post('/login', (req,res)=>{
-    const {email,password} = req.body
-    userModel.findOne({email:email})
+    const {uname,password} = req.body
+    userModel.findOne({username:uname})
     .then(user =>{
         if(user){
             if(user.password === password){
